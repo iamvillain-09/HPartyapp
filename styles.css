@@ -1,0 +1,193 @@
+/* Body Styling with a Funky House Party Theme */
+/* Body Styling with Funky House Party Background */
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    background: url('./party-background.jpg'); /* Path to your local image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* App Container */
+#app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    color: #ffcc00; /* Bright yellow for a party vibe */
+}
+
+/* Input Fields */
+input {
+    width: calc(100% - 24px);
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+/* Buttons */
+button {
+    width: auto;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #ff5733; /* Bright orange for party theme */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #ffcc00; /* Yellow hover effect */
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: not-allowed;
+}
+
+/* Remove bullet points from lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Style individual list items */
+li {
+    margin: 5px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Game Page Styling */
+#gamePage h1 {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+
+#selectedNameAction {
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling for the name and action on the game page */
+.name {
+    color: #cfed89; /* Bright orange for the name */
+    font-weight: bold;
+    font-size: 2.2rem; /* Slightly larger font for emphasis */
+}
+
+.action {
+    color: #e7f1e8; /* Bright green for the action */
+    font-style: italic;
+    font-size: 2rem;
+}
+
+/* Modal Styling */
+#editModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#modalContent {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+}
+
+#modalContent h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+#editModalInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    outline: none;
+}
+
+#saveEditButton, #cancelEditButton {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#saveEditButton {
+    background: #6a11cb;
+    color: #fff;
+}
+
+#cancelEditButton {
+    background: #ff4d4d;
+    color: #fff;
+}
+
+#saveEditButton:hover {
+    background: #2575fc;
+}
+
+#cancelEditButton:hover {
+    background: #ff3333;
+}

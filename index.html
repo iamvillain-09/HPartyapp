@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Party Game</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Dancing+Script:wght@600&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Name Input Page -->
+        <div id="nameInputPage">
+            <h1>House Party Game</h1>
+            <input type="text" id="nameInput" placeholder="Enter a name">
+            <button id="addNameButton">Add Name</button>
+            <ul id="nameList"></ul>
+            <input type="text" id="actionInput" placeholder="Enter a custom action">
+            <button id="addActionButton">Add Action</button>
+            <ul id="actionList"></ul>
+            <button id="startGameButton" disabled>Start Game</button>
+        </div>
+
+        <!-- Game Page -->
+        <div id="gamePage" style="display: none;">
+            <h1>House Party Game</h1>
+            <p id="selectedNameAction"></p>
+            <button id="nextActionButton">Next</button>
+            <button id="backButton">Back</button>
+        </div>
+
+        <!-- Edit Modal -->
+        <div id="editModal" style="display: none;">
+            <div id="modalContent">
+                <h2>Edit</h2>
+                <input type="text" id="editModalInput">
+                <button id="saveEditButton">Save</button>
+                <button id="cancelEditButton">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
