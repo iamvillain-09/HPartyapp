@@ -25,7 +25,7 @@ let actions = [
     "Give someone in the group a romantic compliment... but make it awkward.",
     "Whisper something mysterious to the person next to you.",
     "Share your most romantic or funny pick-up line.",
-    "Pretend to serenade someone with an imaginary guitar.",
+    "Pretend to flirt someone with an imaginary guitar.",
     "Act like you're on a steamy reality TV dating show for 1 minute.",
     "Choose a person to 'slow dance' with no music for 30 seconds.",
     "Let someone in the group pick your next drink.",
