@@ -22,7 +22,7 @@ const emojiList = [
     "🕺", "🍹", "🌟", "🍀", "🎁", "😈", "😇", "🤖", "👑", "🎶"
 ];
 let actions = [
-    "Give someone in the group a compliment... but make it awkward.",
+    "Give someone in the group a romantic compliment... but make it awkward.",
     "Whisper something mysterious to the person next to you.",
     "Share your most romantic or funny pick-up line.",
     "Pretend to serenade someone with an imaginary guitar.",
