@@ -34,7 +34,6 @@ let actions = [
     "Share a spicy but safe secret about yourself.",
     "Share a funny secret about yourself.",
     "Act out a romantic scene from a movie with someone in the group.",
-    "Act out a funny scene from a movie with someone in the group.",
     "Tell someone they’re your 'crush' for the rest of the game.",
     "Choose someone to take a selfie with and make it your profile picture for 1 hour.",
     "Spin an imaginary bottle and pretend it landed on someone for a dare.",
