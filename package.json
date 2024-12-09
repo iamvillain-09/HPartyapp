@@ -1,0 +1,28 @@
+{
+    "name": "house-party-game",
+    "version": "1.0.0",
+    "description": "A fun and interactive house party game for creating a lively party atmosphere.",
+    "main": "index.js",
+    "scripts": {
+      "start": "http-server -p 3000",
+      "build": "echo 'Building the project...'",
+      "test": "echo 'No tests defined yet!' && exit 0"
+    },
+    "keywords": [
+      "party",
+      "game",
+      "fun",
+      "interactive",
+      "house-party"
+    ],
+    "author": "Random",
+    "license": " ",
+    "dependencies": {
+      "http-server": "^14.1.1"
+    },
+    "devDependencies": {},
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
+  
