@@ -39,6 +39,7 @@ let actions = [
     "Spin an imaginary bottle and pretend it landed on someone for a dare.",
     "Pretend to flirt with someone using the cheesiest lines you can think of.",
     "Describe your ideal date in under 30 seconds.",
+    "Describe someone from the group as an ideal date in under 30 seconds.",
     "Give a dramatic toast to love and relationships!",
     "Pretend you're writing a love letter to someone in the group.",
     "Ask someone in the group a 'truth' question of your choice.",
